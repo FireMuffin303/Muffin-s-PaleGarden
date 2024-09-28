@@ -1,0 +1,14 @@
+{
+  "entity.creaker.growl": {
+    "sounds": [
+      "entity/creaker/growl"
+    ],
+    "subtitle": "subtitles.entity.creaker.growl"
+  },
+  "entity.creaker.move": {
+    "sounds": [
+      "entity/creaker/move"
+    ],
+    "subtitle": "subtitles.entity.creaker.move"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "block.muffins_palegarden.pale_grass": "Pale Grass",
+  "block.muffins_palegarden.pale_leaves": "Pale Leaves",
+  "block.muffins_palegarden.pale_log": "Pale Log",
+  "block.muffins_palegarden.pale_sapling": "Pale Sapling",
+  "block.muffins_palegarden.pale_stone": "Pale Stone",
+  "entity.muffins_palegarden.creaker": "Creaker",
+  "item.muffins_palegarden.creaker_spawn_egg": "Creaker Spawn Egg",
+  "muffins_palegarden:item_group": "Muffin's Pale Garden",
+  "muffins_palegarden:pale_garden": "Pale Garden",
+  "subtitles.entity.creaker.growl": "Creaker's Growl",
+  "subtitles.entity.creaker.move": "Creaker Moves"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "muffins_palegarden:block/pale_log_top",
+    "side": "muffins_palegarden:block/pale_log_side"
+  }
+}

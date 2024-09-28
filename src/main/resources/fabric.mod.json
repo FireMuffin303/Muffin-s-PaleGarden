@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "muffins_palegarden",
+  "version": "${version}",
+  "name": "PaleGarden",
+  "description": "",
+  "authors": ["FireMuffin303","Dino_Care"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/palegarden/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.firemuffin303.palegarden.client.PalegardenClient"
+    ],
+    "main": [
+      "net.firemuffin303.palegarden.Palegarden"
+    ],
+    "fabric-datagen": [
+      "net.firemuffin303.palegarden.datagen.ModDataGen"
+    ],
+    "terrablender": [
+      "net.firemuffin303.palegarden.Palegarden"
+    ]
+  },
+  "mixins": [
+    "palegarden.mixins.json",
+    {
+      "config": "palegarden.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}",
+    "terrablender" : "4.1.0.3"
+  }
+}
